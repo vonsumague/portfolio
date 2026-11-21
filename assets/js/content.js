@@ -34,9 +34,9 @@ window.PORTFOLIO = {
 
   /* ---------- Hero (top of the page) ---------- */
   hero: {
-    eyebrow: "ServiceNow Developer · Open to remote roles",
-    headline: "ServiceNow portals, built with a *web developer’s* hands.",
-    lede: "I develop and maintain ServiceNow Service Portal experiences across ITSM and CSM for healthcare and pharmaceutical clients — backed by four ServiceNow certifications and earlier full-stack work in React, Laravel, PHP and MySQL."
+    eyebrow: "Software Developer · Open to remote roles",
+    headline: "Full stack. *Full ownership.*",
+    lede: "Developer with full-stack experience in React, Laravel, PHP and MySQL. I shipped four campus systems as a solo developer and now build enterprise portals at Accenture for healthcare and pharmaceutical clients."
   },
 
   /* ---------- Summary card next to the hero: [label, value] ---------- */

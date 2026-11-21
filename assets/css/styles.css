@@ -259,6 +259,8 @@ button { font: inherit; color: inherit; }
   text-wrap: balance;
 }
 .hero-line em, .contact-title em, .section-title em { color: var(--accent); font-style: normal; }
+/* Keep the accent phrase together on one line (keep it short, ~20 characters) */
+.hero-line em { white-space: nowrap; }
 .hero-lede {
   margin-top: 24px;
   max-width: 38rem;
