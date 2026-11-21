@@ -26,7 +26,7 @@ window.PORTFOLIO = {
     phoneDisplay: "+63 995 002 0360", // what visitors see
     resume: "assets/resume/Von-Ryan-Sumague-Resume.pdf", // replace the PDF, keep this path
     links: {
-      linkedin: "https://www.linkedin.com/in/von-ryan-sumague-0430a0232/",
+      linkedin: "https://www.linkedin.com/in/vonryansumague/",
       github: "https://github.com/vonsumague",
       credly: "https://www.credly.com/users/von-ryan-sumague.9019e3a0/badges"
     }
