@@ -242,6 +242,6 @@ window.PORTFOLIO = {
 
   /* ---------- Contact ---------- */
   contact: {
-    title: "Hiring for a remote ServiceNow or web development role? *Let’s talk.*"
+    title: "Hiring for a remote developer role? *Let’s talk.*"
   }
 };

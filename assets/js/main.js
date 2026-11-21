@@ -201,9 +201,12 @@
   var contactItems = [];
   if (has(p.phone)) contactItems.push('<li><a href="tel:' + esc(p.phone) + '"><span class="mono">Phone</span>' + esc(p.phoneDisplay || p.phone) + '</a></li>');
   if (has(p.resume)) contactItems.push('<li><a href="' + esc(p.resume) + '" download><span class="mono">Résumé</span>Download PDF</a></li>');
-  if (has(links.linkedin)) contactItems.push('<li><a href="' + esc(links.linkedin) + '" target="_blank" rel="noopener"><span class="mono">LinkedIn</span>' + esc(links.linkedin.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')) + '</a></li>');
-  if (has(links.github)) contactItems.push('<li><a href="' + esc(links.github) + '" target="_blank" rel="noopener"><span class="mono">GitHub</span>' + esc(links.github.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')) + '</a></li>');
-  if (has(links.credly)) contactItems.push('<li><a href="' + esc(links.credly) + '" target="_blank" rel="noopener"><span class="mono">Credly</span>Verified badges</a></li>');
+  function social(url, label, name) {
+    return '<li><a href="' + esc(url) + '" target="_blank" rel="noopener"><span class="mono">' + label + '</span><span>' + name + ' <span aria-hidden="true">↗</span></span></a></li>';
+  }
+  if (has(links.linkedin)) contactItems.push(social(links.linkedin, 'Connect', 'LinkedIn'));
+  if (has(links.github)) contactItems.push(social(links.github, 'Code', 'GitHub'));
+  if (has(links.credly)) contactItems.push(social(links.credly, 'Badges', 'Credly'));
   if (has(p.location)) contactItems.push('<li><span class="contact-static"><span class="mono">Based in</span>' + esc(p.location) + '</span></li>');
 
   var contactHTML =
