@@ -27,7 +27,7 @@ window.PORTFOLIO = {
     resume: "assets/resume/Von-Ryan-Sumague-Resume.pdf", // replace the PDF, keep this path
     links: {
       linkedin: "", // e.g. "https://www.linkedin.com/in/your-profile"
-      github: "",   // e.g. "https://github.com/your-username"
+      github: "https://github.com/vonsumague",
       credly: "https://www.credly.com/users/von-ryan-sumague.9019e3a0/badges"
     }
   },
